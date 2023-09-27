@@ -82,54 +82,54 @@ const posts = [
         createAt: "2023-09-06T11:08:09.452Z",
         _v: 0
     },
-    // {
-    //     title: "pokemon 4",
-    //     author: "nintendo-4",
-    //     timeAt: '12/05/2023',
-    //     contents: [
-    //         {
-    //             name: "i",
-    //             content: "event",
-    //             typeName: 1,
-    //             _id: "abc1213"
-    //         },
-    //         {
-    //             name: "image",
-    //             content: "/uploads/chaman.jpg",
-    //             typeName: 2,
-    //             _id: "abc3211"
-    //         }
-    //     ],
-    //     categoryType: 2,
-    //     slugname: "pokemon-4",
-    //     _id: "6521abc",
-    //     createAt: "2023-09-06T11:08:09.452Z",
-    //     _v: 0
-    // },
-    // {
-    //     title: "pokemon 5",
-    //     author: "nintendo-5",
-    //     timeAt: '12/05/2023',
-    //     contents: [
-    //         {
-    //             name: "i",
-    //             content: "event",
-    //             typeName: 1,
-    //             _id: "abc1213"
-    //         },
-    //         {
-    //             name: "image",
-    //             content: "/uploads/chamanzzz.jpg",
-    //             typeName: 2,
-    //             _id: "abc3211"
-    //         }
-    //     ],
-    //     categoryType: 2,
-    //     slugname: "pokemon-5",
-    //     _id: "6521abc",
-    //     createAt: "2023-09-06T11:08:09.452Z",
-    //     _v: 0
-    // }
+    {
+        title: "pokemon 4",
+        author: "nintendo-4",
+        timeAt: '12/05/2023',
+        contents: [
+            {
+                name: "i",
+                content: "event",
+                typeName: 1,
+                _id: "abc1213"
+            },
+            {
+                name: "image",
+                content: "/uploads/chaman.jpg",
+                typeName: 2,
+                _id: "abc3211"
+            }
+        ],
+        categoryType: 2,
+        slugname: "pokemon-4",
+        _id: "6521abc",
+        createAt: "2023-09-06T11:08:09.452Z",
+        _v: 0
+    },
+    {
+        title: "pokemon 5",
+        author: "nintendo-5",
+        timeAt: '12/05/2023',
+        contents: [
+            {
+                name: "i",
+                content: "event",
+                typeName: 1,
+                _id: "abc1213"
+            },
+            {
+                name: "image",
+                content: "/uploads/chamanzzz.jpg",
+                typeName: 2,
+                _id: "abc3211"
+            }
+        ],
+        categoryType: 2,
+        slugname: "pokemon-5",
+        _id: "6521abc",
+        createAt: "2023-09-06T11:08:09.452Z",
+        _v: 0
+    }
 
 ]
 

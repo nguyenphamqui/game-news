@@ -17,7 +17,7 @@
       <div class="grid content-start">
         <span class="category-name text-orange-500 flex text-sm font-bold mb-2 uppercase">Pokemon Go</span>
         <h3 class="text-2xl font-bold mb-3">
-          <NuxtLink href="#">Pokemon GO: Best PvP And PvE Moveset For Entei</NuxtLink>
+          <NuxtLink :href="'/'+post.slugname">Pokemon GO: Best PvP And PvE Moveset For Entei</NuxtLink>
         </h3>
         <p class="desc mb-4 text-sm">Pokemon GO players can access the best PvP and PvE moveset for Entei by
           following this guide.
@@ -31,7 +31,7 @@
 </template>
 
 <script setup lang="ts">
-
+const props = defineProps(['post'])
 </script>
 
 <style scoped>
