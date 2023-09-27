@@ -12,9 +12,12 @@
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@nuxtjs/tailwindcss": "^6.8.0",
+    "moment": "^2.29.4",
     "nuxt": "^3.7.3"
   },
   "dependencies": {
+    "@mdi/js": "^7.2.96",
+    "moment": "^2.29.4",
     "sass": "^1.68.0"
   }
 }
