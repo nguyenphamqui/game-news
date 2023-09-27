@@ -1,8 +1,9 @@
 <template>
   <header class="bg-orange-200 text-black">
     <img src="/img/logo-h.png" alt="logo" class="w-[150px] mx-auto"/>
+    <AppMenu/>
   </header>
-  <AppMenu/>
+  
 </template>
 
 <script setup lang="ts">
