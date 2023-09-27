@@ -1,0 +1,48 @@
+.socialite-widget {
+    display: table;
+    clear: both;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+.socialite-widget-ul {
+    font-size: 0;
+    display: inline-block;
+    zoom: 1;
+    vertical-align: top;
+    margin-bottom: 0;
+
+}
+.socialite-widget-item {
+    display: inline-block;
+    zoom: 1;
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+    font-size: 16px;
+    line-height: 28px;
+    margin-left: 8px;
+    &:first-child {
+        margin-left: 0;
+    }
+    a:hover {
+    filter: brightness(1.2);
+    color: #fff;
+    text-decoration: none;
+    }
+}
+.cicrle-mail-icon {
+    background: #000 !important;
+    cursor: pointer !important;
+    border-radius: 50px !important;
+    padding: 2px;
+}
+@media only screen and (min-width: 768px) {
+    .mobile-only {
+        display: none;
+    }
+}
