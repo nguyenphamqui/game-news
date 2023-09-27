@@ -5,7 +5,8 @@
       {{ title }}
     </h2>
     <div class="content">
-      <article v-for="(post, index) in posts" :key="index" class="mb-6">
+      <article v-for="(post, index) in posts" :key="index" class="mb-6 grid"
+        :class="checkStyle(style) ? 'grid-flow-col grid-cols-[100px,1fr] gap-1' : ''">
         <NuxtLink href="#" class="mb-2 block">
           <figure>
             <picture>
@@ -23,7 +24,10 @@
           </figure>
         </NuxtLink>
         <NuxtLink href="#">
-          <h5 class="text-md font-bold">Zelda: Tears of the Kingdom Giving Away a New Round of Free Items</h5>
+          <h5 class="text-md font-bold" :class="checkStyle(style) ? 'text-xs' : ''">Zelda: Tears of the Kingdom Giving Away a
+            New Round of
+            Free Items
+          </h5>
         </NuxtLink>
       </article>
     </div>
@@ -31,8 +35,12 @@
 </template>
 
 <script setup lang="ts">
-const props = defineProps(['title'])
+const props = defineProps(['title', 'style'])
+console.log(props.title === 'Trending')
 const posts = [{}, {}, {}]
+const checkStyle = (style: string) => {
+  return style === 'horizontal'
+}
 </script>
 
 <style scoped></style>
