@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-orange-200 text-black">
+  <footer class="bg-orange-200 text-black mt-8">
     <div class="footer-content max-w-[1300px] mx-auto grid gap-4">
       <img src="/img/logo-h.png" alt="logo" class="w-[150px] my-4 mx-auto"/>
       <ul class="flex flex-wrap items-center justify-center gap-6 mb-16">
